@@ -1,10 +1,24 @@
 # Template repository for python data analysis
 Use this repository as a base template for new python analysis projects.
 
-Clone the repository to your computer and remove the `.git` folder to erase the history. The initialize a fresh git history with `git init`.
+## Download the repository
+
+### Download
+#### Option 1
+1. Clone the repository to your computer.
+2. Remove the `.git` folder to erase the history.
+#### Option 2
+1. Download as a zip folder.
+2. Unzip.
+
+### Start a new GitHub project
+1. Create a new repository to GitHub and follow the instructions.
 
 ## Setup the environment
-Install virtual environment by `pip3 install virtualenv`. Create a new virtualenv by `virtualenv venv`.
+1. Install virtual environment by `pip3 install virtualenv`.
+2. Create a new virtualenv by `virtualenv venv`.
+3. Copy `env_example.sh`, rename to `env.sh` and configure project directory.
+4. Copy `config_example.py`, rename to `config.py` and configure variables.
 
 ## Start the environment
-The `env_example.sh` contains a template script that you can paste to e.g. Ubuntu editor when starting a development session.
+Paste the shell script in `env.sh` Linux editor to start  a development session.
