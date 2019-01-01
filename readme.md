@@ -16,9 +16,11 @@ Use this repository as a base template for new python analysis projects.
 
 ## Setup the environment
 1. Install virtual environment by `pip3 install virtualenv`.
-2. Create a new virtualenv by `virtualenv venv`.
-3. Copy `env_example.sh`, rename to `env.sh` and configure project directory.
-4. Copy `config_example.py`, rename to `config.py` and configure variables.
+2. Copy `env_example.sh`, rename to `env.sh` and configure project directory.
+3. Copy `config_example.py`, rename to `config.py` and configure variables.
 
 ## Start the environment
 Paste the shell script in `env.sh` Linux editor to start  a development session.
+
+## Documentation to setup the python environment
+See the documentation [here](https://github.com/mikaelahonen/python-analysis-env).
