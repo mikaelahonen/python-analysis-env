@@ -19,15 +19,15 @@ Linux `Ubuntu 18.04` operation system is expected.
 
 ## Setup the environment
 1. Add line `export PATH="/mnt/c/Users/username/projects/projectname:$PATH"` to `~/.profile` file. Edit the path to match the location of your project directory.
-2. Copy `projectname-env-example.sh` in `shell` folder and rename to `projectname-env.sh`. Rename according to your project name.
-3. Configure `projectname-env.sh`.
+2. Copy `projectenv-example.sh` in `shell` folder and rename to for example `projectenv.sh`. Rename according to your project name.
+3. Configure `projectenv.sh`.
 4. Copy `config_example.py` in `modules` folder and rename to `config.py`
 5. Configure variables in `config.py`.
 6. Install virtual environment by `pip3 install virtualenv`.
 7. Update this `readme.md` file.
 
 ## Start the environment
-Start a new session by typing this to command line: `source projectname-env.sh` or `. projectname-env.sh`. The environment variables are set and virtual python environment is activated. You can run for example `jupyter notebook` or `python3 scripts/script.py`.
+Start a new session by typing this to command line: `source projectenv.sh` or `. projectenv.sh`. The environment variables are set and virtual python environment is activated. You can run for example `jupyter notebook` or `python3 scripts/script.py`.
 
 ## Folder structure
 

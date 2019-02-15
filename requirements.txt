@@ -1,9 +1,9 @@
-#Cython
-#pandas
-#numpy
+pandas
+numpy
 #jupyter
 #sqlalchemy
 #matplotlib
+#Cython
 #scipy
 #scikit-learn
 #statsmodels
